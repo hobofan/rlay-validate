@@ -1,0 +1,15 @@
+[package]
+name = "rlay-validate"
+version = "0.1.0"
+authors = ["Maximilian Goisser <goisser94@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rlay_ontology = { version = "0.2.3" }
+snafu = "0.5.0"
+multicodec = { git = "https://github.com/hobofan/rust-multicodec" }
+cbor = "0.4.1"
+
+[dev-dependencies]
+hex-literal = "0.2.1"
+
